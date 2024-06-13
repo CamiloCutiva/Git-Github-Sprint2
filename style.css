@@ -1,0 +1,158 @@
+body{
+    background-color: hsl(310, 61%, 85%);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 140px;
+    background-color: hsl(237, 74%, 85%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid hsl(113, 44%, 54%);
+    border-radius: 40%;
+}
+
+nav a:hover{
+    font-weight: 1000;
+    background-color: rgb(120, 159, 241);
+}
+
+.logo img{
+    height: 200px;
+    margin-right: 0px;
+}
+
+main{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: rgb(120, 159, 241);
+}
+h2{
+    font-size: 40px;
+    color: rgb(120, 159, 241);
+}
+h3{
+    font-size: 30px;
+    color: rgb(120, 159, 241);
+}
+.imgBanner{
+    display: block;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+}
+section article p{
+    height: 500px;
+    width: 600;
+    color: #675686;
+    font-size: 30px;
+    margin-left: 200px ;
+    margin-top: 200px;
+}
+section aside img {
+    height: 500px;
+    width: 600;
+    border: 5px solid rgb(228, 231, 31);
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+.container div img {
+    height: 500px;
+    width: 600;
+    border: 5px solid rgba(255, 255, 255, 0.884);
+    margin: 20px;
+}
+
+.container div p {
+    text-align: center;
+    color: hwb(199 31% 19%);
+    font-size: 30px;
+}
+
+div p {
+    color: rgb(57, 169, 189);
+    font-size: 30px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contenedortips{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor {
+    border: 5px solid white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;  
+ }
+.Lista{
+    font-size: 30px;
+    border: 20px;
+    align-content: center;
+    text-align: start;
+}
+.contenedortips img{
+    height: 500px;
+    width: 600;
+    border: 5px solid white;
+    margin: 20px;
+}  
+ .tablaInformacion {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    height: 40vh;
+}
+table, tr, td, th {
+    text-align: center;
+    border: 1px solid black; 
+    align-content: center;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th {
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;    
+}
+footer{
+    display: flex;
+    font-size: 25px;
+    background-color:rgb(127, 171, 253);
+}
+
+footer p{
+    color:white;
+    font-weight: 800;
+    margin: auto;
+}
